@@ -1,0 +1,45 @@
+/* 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-de-grund-<uniquifier> {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+body{
+    background-image: url(../images/black-backgorund-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.menu{
+    background-color: #777;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    align-content: center;
+    font-size: x-large;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+.card-login{
+    border: solid 2.5px;
+    border-radius: 3.5%;
+    background-color: #918f8f27;
+    margin-left: 22%;
+    margin-right: 22%;
+    text-align: center;
+    height: 15rem;
+    font-family: "Playwrite DE Grund", cursive;
+
+}
+
+.card-login2{
+    /* padding: 5%; */
+    
+}
