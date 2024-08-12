@@ -27,6 +27,11 @@ body{
     font-family: "Playwrite DE Grund", cursive;
 }
 
+.sub-menu{
+    color: white;
+    
+}
+
 .card-login{
     border: solid 2.5px;
     border-radius: 3.5%;
@@ -40,6 +45,6 @@ body{
 }
 
 .card-login2{
-    /* padding: 5%; */
+    padding: 5%;
     
 }
