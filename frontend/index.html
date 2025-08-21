@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerenciador de Jogos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Meus Jogos</h1>
+
+    <form id="jogo-form">
+      <input type="text" id="nome" placeholder="Nome do jogo" required />
+      <select id="situacao">
+        <option value="pendente">Pendente</option>
+        <option value="concluido">Concluído</option>
+      </select>
+      <select id="avaliacao">
+        <option value="positivo"> Positivo</option>
+        <option value="neutro"> Neutro</option>
+        <option value="negativo"> Negativo</option>
+      </select>
+      <input type="text" id="observacao" placeholder="Observações (opcional)" />
+      <button type="submit">Adicionar Jogo</button>
+    </form>
+
+    <ul id="jogos-lista"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
